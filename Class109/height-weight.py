@@ -1,7 +1,6 @@
 import pandas as pd
 import statistics
 import csv
-import 
 df=pd.read_csv("data.csv")
 
 height_list=df["Height(Inches)"].to_list()
